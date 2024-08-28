@@ -16,6 +16,9 @@ export interface WeatherApiResponse {
     main: {
         temp: number;
     };
+    weather: Array<{
+        icon: string;
+    }>;
     wind: {
         speed: number;
     };

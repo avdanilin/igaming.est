@@ -26,6 +26,7 @@ mix-manifest.json
 *.sln
 *.sw*
 *.vs
+*.tsbuildinfo
 
 #npm registry
 .npmrc
