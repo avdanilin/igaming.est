@@ -76,7 +76,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { useWeather } from '@/composables/useWeather';
-//ts-ignore
 import { useRecentSearches } from '@/composables/useRecentSearches';
 
 export default defineComponent({
@@ -113,7 +112,7 @@ export default defineComponent({
 
   computed: {
     getIcon() {
-      return this.weather.weather[0].icon;
+      return this.weather?.weather[0].icon;
     },
 
     getUnits() {

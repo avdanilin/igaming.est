@@ -5,7 +5,7 @@
       <option value="ru">Русский</option>
     </select>
 
-    <WeatherSearch @add-recent="addRecentSearch" />
+    <WeatherSearch />
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default defineComponent({
 });
 </script>
 
-<style scpoed>
+<style scoped>
 #app,
 .weather {
   height: 100vh;
